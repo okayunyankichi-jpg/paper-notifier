@@ -1,0 +1,223 @@
+"""毎日1本、AI・生命科学・脳神経科学・生物分野の論文ニュースを選んでDiscordに通知し、
+静的サイト(docs/)とRSSを更新するスクリプト。"""
+import datetime as dt
+import html
+import json
+import os
+import re
+from pathlib import Path
+
+import feedparser
+import requests
+from anthropic import Anthropic
+
+ROOT = Path(__file__).parent
+HISTORY = ROOT / "data" / "history.json"
+DOCS = ROOT / "docs"
+JST = dt.timezone(dt.timedelta(hours=9))
+
+MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5-5")
+WEBHOOK = os.environ.get("DISCORD_WEBHOOK_URL", "")
+SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")  # 例: https://USER.github.io/REPO
+PER_FEED = 8  # 1フィードあたりの候補数（特定ソースの偏り防止）
+
+# (表示名, URL, 種別)  ※フィードURLは変更されることがあります。取得失敗は自動でスキップします。
+FEEDS = [
+    ("Nature", "https://www.nature.com/nature.rss", "査読済み"),
+    ("Nature Neuroscience", "https://www.nature.com/neuro.rss", "査読済み"),
+    ("Nature Machine Intelligence", "https://www.nature.com/natmachintell.rss", "査読済み"),
+    ("Science News", "https://www.science.org/rss/news_current.xml", "ニュース"),
+    ("bioRxiv Neuroscience", "https://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience", "プレプリント"),
+    ("bioRxiv Neuroscience", "https://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience", "プレプリント"),
+    ("arXiv q-bio.NC", "https://rss.arxiv.org/rss/q-bio.NC", "プレプリント"),
+    ("arXiv cs.AI", "https://rss.arxiv.org/rss/cs.AI", "プレプリント"),
+    ("Phys.org Biology", "https://phys.org/rss-feed/biology-news/", "ニュース"),
+    ("Medical Xpress Neuroscience", "https://medicalxpress.com/rss-feed/neuroscience-news/", "ニュース"),
+    ("EurekAlert Biology", "https://www.eurekalert.org/rss/biology.xml", "ニュース"),
+]
+# 重複定義を除去
+FEEDS = list(dict.fromkeys(FEEDS))
+
+SYSTEM_PROMPT = """あなたは科学コミュニケーターです。
+読者はAI、生命科学、脳神経科学、生物学に関心のある一般〜やや専門寄りの日本語話者です。
+候補リストから「今日読む価値が最も高い1件」を選び、日本語で紹介文を作ります。
+
+選定基準: 新規性・インパクト、分野の関心との合致、一般読者にも面白さが伝わること。
+ルール:
+- 提供された本文(要旨)に書かれていない事実は書かない。推測は避ける。
+- 種別が「プレプリント」の場合は、未査読であることを紹介文に明記する。
+- 出力はJSONのみ。前置きやコードブロックは不要。
+
+出力形式:
+{"index": 候補番号(整数),
+ "title_ja": "日本語タイトル",
+ "summary_ja": "3〜5文の要約",
+ "why_ja": "なぜ面白い/重要か（1〜2文）",
+ "field": "AI | 生命科学 | 脳神経科学 | 生物学 のいずれか"}"""
+
+
+def now_jst() -> dt.datetime:
+    return dt.datetime.now(JST)
+
+
+def strip_html(text: str) -> str:
+    text = re.sub(r"<[^>]+>", " ", text or "")
+    return re.sub(r"\s+", " ", html.unescape(text)).strip()
+
+
+def load_history() -> list[dict]:
+    return json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else []
+
+
+def fetch_candidates(seen: set[str]) -> list[dict]:
+    items = []
+    for name, url, kind in FEEDS:
+        try:
+            feed = feedparser.parse(url, agent="paper-notifier/1.0")
+        except Exception as e:  # noqa: BLE001
+            print(f"[warn] {name}: {e}")
+            continue
+        count = 0
+        for e in feed.entries:
+            link = e.get("link", "")
+            if not link or link in seen:
+                continue
+            items.append({
+                "source": name,
+                "kind": kind,
+                "title": strip_html(e.get("title", "")),
+                "text": strip_html(e.get("summary", ""))[:700],
+                "url": link,
+            })
+            count += 1
+            if count >= PER_FEED:
+                break
+        print(f"[info] {name}: {count}件")
+    return items
+
+
+def select_and_summarize(cands: list[dict]) -> dict:
+    listing = "\n\n".join(
+        f"[{i}] ({c['kind']} / {c['source']})\nTitle: {c['title']}\nText: {c['text']}"
+        for i, c in enumerate(cands)
+    )
+    client = Anthropic()  # ANTHROPIC_API_KEY を環境変数から読む
+    msg = client.messages.create(
+        model=MODEL,
+        max_tokens=1200,
+        system=SYSTEM_PROMPT,
+        messages=[{"role": "user", "content": f"候補一覧:\n\n{listing}"}],
+    )
+    raw = "".join(b.text for b in msg.content if b.type == "text")
+    data = json.loads(re.search(r"\{.*\}", raw, re.S).group(0))
+    c = cands[int(data["index"])]
+    return {
+        "date": now_jst().strftime("%Y-%m-%d"),
+        "title_orig": c["title"],
+        "title_ja": data["title_ja"],
+        "summary_ja": data["summary_ja"],
+        "why_ja": data["why_ja"],
+        "field": data.get("field", ""),
+        "source": c["source"],
+        "kind": c["kind"],
+        "url": c["url"],
+    }
+
+
+def notify_discord(e: dict) -> None:
+    if not WEBHOOK:
+        print("[info] DISCORD_WEBHOOK_URL 未設定のため通知スキップ")
+        return
+    desc = f"{e['summary_ja']}\n\n**💡 ポイント**\n{e['why_ja']}"
+    if SITE_URL:
+        desc += f"\n\n📚 [過去の記事一覧]({SITE_URL}/)"
+    payload = {
+        "embeds": [{
+            "title": f"🧬 {e['title_ja']}"[:256],
+            "url": e["url"],
+            "description": desc[:4000],
+            "color": 0x5865F2,
+            "fields": [
+                {"name": "分野", "value": e["field"] or "-", "inline": True},
+                {"name": "種別", "value": e["kind"], "inline": True},
+                {"name": "出典", "value": e["source"], "inline": True},
+            ],
+            "footer": {"text": f"原題: {e['title_orig']}"[:2000]},
+        }]
+    }
+    r = requests.post(WEBHOOK, json=payload, timeout=30)
+    r.raise_for_status()
+
+
+def build_site(history: list[dict]) -> None:
+    esc = html.escape
+    latest, older = history[-1], list(reversed(history[:-1]))
+
+    def card(e: dict, big: bool = False) -> str:
+        tag = "h2" if big else "h3"
+        return f"""<article class="card">
+<div class="meta">{esc(e['date'])} ・ {esc(e['field'])} ・ <span class="badge">{esc(e['kind'])}</span> ・ {esc(e['source'])}</div>
+<{tag}><a href="{esc(e['url'])}" target="_blank" rel="noopener">{esc(e['title_ja'])}</a></{tag}>
+<p>{esc(e['summary_ja'])}</p>
+<p class="why">💡 {esc(e['why_ja'])}</p>
+<div class="orig">原題: {esc(e['title_orig'])}</div>
+</article>"""
+
+    archive = "\n".join(card(e) for e in older)
+    page = f"""<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>今日の1本 - 科学論文ニュース</title>
+<link rel="alternate" type="application/rss+xml" href="feed.xml">
+<style>
+:root{{--bg:#fafafa;--fg:#222;--card:#fff;--sub:#666;--ac:#5865f2;--bd:#e5e5e5}}
+@media(prefers-color-scheme:dark){{:root{{--bg:#16171a;--fg:#e6e6e6;--card:#1f2024;--sub:#9a9a9a;--bd:#2f3036}}}}
+body{{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 system-ui,-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif}}
+main{{max-width:760px;margin:0 auto;padding:16px}}
+h1{{font-size:1.2rem}} h2{{font-size:1.35rem;margin:.4em 0}} h3{{font-size:1.05rem;margin:.4em 0}}
+.card{{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;margin:14px 0}}
+.meta,.orig{{color:var(--sub);font-size:.85rem}}
+.badge{{background:var(--ac);color:#fff;border-radius:6px;padding:0 6px;font-size:.78rem}}
+.why{{border-left:3px solid var(--ac);padding-left:10px}}
+a{{color:var(--ac);text-decoration:none}}
+</style></head><body><main>
+<h1>🧬 今日の1本</h1>
+{card(latest, big=True)}
+<h1>📚 アーカイブ</h1>
+{archive or '<p class="meta">まだありません</p>'}
+<p class="meta"><a href="feed.xml">RSSフィード</a></p>
+</main></body></html>"""
+    DOCS.mkdir(exist_ok=True)
+    (DOCS / "index.html").write_text(page, encoding="utf-8")
+
+    items = "\n".join(
+        f"""<item><title>{esc(e['title_ja'])}</title><link>{esc(e['url'])}</link>
+<guid isPermaLink="false">{esc(e['url'])}</guid>
+<pubDate>{dt.datetime.strptime(e['date'], '%Y-%m-%d').replace(tzinfo=JST).strftime('%a, %d %b %Y %H:%M:%S %z')}</pubDate>
+<description>{esc(e['summary_ja'] + ' / ' + e['why_ja'])}</description></item>"""
+        for e in reversed(history[-50:])
+    )
+    rss = f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
+<link>{esc(SITE_URL or '.')}</link><description>AI・生命科学・脳神経科学・生物学</description>
+{items}
+</channel></rss>"""
+    (DOCS / "feed.xml").write_text(rss, encoding="utf-8")
+
+
+def main() -> None:
+    history = load_history()
+    seen = {h["url"] for h in history}
+    cands = fetch_candidates(seen)
+    if not cands:
+        raise SystemExit("候補が取得できませんでした")
+    entry = select_and_summarize(cands)
+    history.append(entry)
+    HISTORY.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
+    build_site(history)
+    notify_discord(entry)
+    print(f"[done] {entry['title_ja']}")
+
+
+if __name__ == "__main__":
+    main()
