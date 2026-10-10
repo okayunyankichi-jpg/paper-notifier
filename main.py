@@ -17,7 +17,7 @@ HISTORY = ROOT / "data" / "history.json"
 DOCS = ROOT / "docs"
 JST = dt.timezone(dt.timedelta(hours=9))
 
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 WEBHOOK = os.environ.get("DISCORD_WEBHOOK_URL", "")
 SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")  # 例: https://USER.github.io/REPO
 PER_FEED = 8  # 1フィードあたりの候補数（特定ソースの偏り防止）
@@ -109,11 +109,15 @@ def select_and_summarize(cands: list[dict]) -> dict:
         config=types.GenerateContentConfig(
             system_instruction=SYSTEM_PROMPT,
             response_mime_type="application/json",
-            max_output_tokens=1500,
+            max_output_tokens=8192,
         ),
     )
-    raw = resp.text
-    data = json.loads(re.search(r"\{.*\}", raw, re.S).group(0))
+    raw = resp.text or ""
+    print("[debug] AIの応答:", raw[:500])
+    m = re.search(r"\{.*\}", raw, re.S)
+    if not m:
+        raise SystemExit(f"AIの応答からJSONを取得できませんでした: {raw[:300]!r}")
+    data = json.loads(m.group(0))
     c = cands[int(data["index"])]
     return {
         "date": now_jst().strftime("%Y-%m-%d"),
