@@ -9,14 +9,15 @@ from pathlib import Path
 
 import feedparser
 import requests
-from anthropic import Anthropic
+from google import genai
+from google.genai import types
 
 ROOT = Path(__file__).parent
 HISTORY = ROOT / "data" / "history.json"
 DOCS = ROOT / "docs"
 JST = dt.timezone(dt.timedelta(hours=9))
 
-MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5-5")
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 WEBHOOK = os.environ.get("DISCORD_WEBHOOK_URL", "")
 SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")  # 例: https://USER.github.io/REPO
 PER_FEED = 8  # 1フィードあたりの候補数（特定ソースの偏り防止）
@@ -101,14 +102,17 @@ def select_and_summarize(cands: list[dict]) -> dict:
         f"[{i}] ({c['kind']} / {c['source']})\nTitle: {c['title']}\nText: {c['text']}"
         for i, c in enumerate(cands)
     )
-    client = Anthropic()  # ANTHROPIC_API_KEY を環境変数から読む
-    msg = client.messages.create(
+    client = genai.Client()  # GEMINI_API_KEY を環境変数から読む
+    resp = client.models.generate_content(
         model=MODEL,
-        max_tokens=1200,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": f"候補一覧:\n\n{listing}"}],
+        contents=f"候補一覧:\n\n{listing}",
+        config=types.GenerateContentConfig(
+            system_instruction=SYSTEM_PROMPT,
+            response_mime_type="application/json",
+            max_output_tokens=1500,
+        ),
     )
-    raw = "".join(b.text for b in msg.content if b.type == "text")
+    raw = resp.text
     data = json.loads(re.search(r"\{.*\}", raw, re.S).group(0))
     c = cands[int(data["index"])]
     return {
