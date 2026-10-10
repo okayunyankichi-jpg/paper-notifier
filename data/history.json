@@ -9,5 +9,16 @@
     "source": "Nature Neuroscience",
     "kind": "査読済み",
     "url": "https://www.nature.com/articles/s41593-026-02472-0"
+  },
+  {
+    "date": "2026-10-10",
+    "title_orig": "Problems in 22 scientific fields had solutions hiding in plain sight. An AI has found them",
+    "title_ja": "22の科学分野に潜んでいた解決策をAIが発見",
+    "summary_ja": "物理学者が率いる研究チームが、「BootLoops」と呼ばれるAIソフトウェアを活用しました。このAIは、言語学から健康政策に至る22もの科学分野において、見落とされていた課題の解決策を発見しました。研究チームはこのソフトウェアを用いることで、わずか数週間のうちに36本もの学術論文を作成することに成功しています。",
+    "why_ja": "AIが特定分野にとどまらず、文理をまたぐ多様な領域の課題を短期間で解決し論文成果に結びつけられる可能性を示しており、研究の未来を大きく変えうる事例です。",
+    "field": "AI",
+    "source": "Science News",
+    "kind": "ニュース",
+    "url": "https://www.science.org/content/article/problems-22-scientific-fields-had-solutions-hiding-plain-sight-ai-has-found-them"
   }
 ]

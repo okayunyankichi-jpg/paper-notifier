@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>22の科学分野に潜んでいた解決策をAIが発見</title><link>https://www.science.org/content/article/problems-22-scientific-fields-had-solutions-hiding-plain-sight-ai-has-found-them</link>
+<guid isPermaLink="false">https://www.science.org/content/article/problems-22-scientific-fields-had-solutions-hiding-plain-sight-ai-has-found-them</guid>
+<pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
+<description>物理学者が率いる研究チームが、「BootLoops」と呼ばれるAIソフトウェアを活用しました。このAIは、言語学から健康政策に至る22もの科学分野において、見落とされていた課題の解決策を発見しました。研究チームはこのソフトウェアを用いることで、わずか数週間のうちに36本もの学術論文を作成することに成功しています。 / AIが特定分野にとどまらず、文理をまたぐ多様な領域の課題を短期間で解決し論文成果に結びつけられる可能性を示しており、研究の未来を大きく変えうる事例です。</description></item>
 <item><title>マルチオミクスと実臨床データを統合したアルツハイマー病の標的同定と創薬</title><link>https://www.nature.com/articles/s41593-026-02472-0</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02472-0</guid>
 <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
