@@ -5,11 +5,13 @@ import html
 import json
 import os
 import re
+import time
 from pathlib import Path
 
 import feedparser
 import requests
 from google import genai
+from google.genai import errors as genai_errors
 from google.genai import types
 
 ROOT = Path(__file__).parent
@@ -103,15 +105,27 @@ def select_and_summarize(cands: list[dict]) -> dict:
         for i, c in enumerate(cands)
     )
     client = genai.Client()  # GEMINI_API_KEY を環境変数から読む
-    resp = client.models.generate_content(
-        model=MODEL,
-        contents=f"候補一覧:\n\n{listing}",
-        config=types.GenerateContentConfig(
-            system_instruction=SYSTEM_PROMPT,
-            response_mime_type="application/json",
-            max_output_tokens=8192,
-        ),
-    )
+    resp = None
+    for attempt in range(1, 6):  # 混雑(503等)のときは最大5回まで待って再試行
+        try:
+            resp = client.models.generate_content(
+                model=MODEL,
+                contents=f"候補一覧:\n\n{listing}",
+                config=types.GenerateContentConfig(
+                    system_instruction=SYSTEM_PROMPT,
+                    response_mime_type="application/json",
+                    max_output_tokens=8192,
+                ),
+            )
+            break
+        except (genai_errors.ServerError, genai_errors.ClientError) as e:
+            if getattr(e, "code", None) not in (429, 500, 503, 504):
+                raise
+            wait = 30 * attempt
+            print(f"[warn] Gemini混雑 ({e.code}) 再試行 {attempt}/5、{wait}秒待ちます")
+            time.sleep(wait)
+    if resp is None:
+        raise SystemExit("Geminiが混雑しており応答を得られませんでした。時間をおいて再実行してください")
     raw = resp.text or ""
     print("[debug] AIの応答:", raw[:500])
     m = re.search(r"\{.*\}", raw, re.S)
