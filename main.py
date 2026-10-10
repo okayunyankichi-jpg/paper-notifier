@@ -17,7 +17,7 @@ HISTORY = ROOT / "data" / "history.json"
 DOCS = ROOT / "docs"
 JST = dt.timezone(dt.timedelta(hours=9))
 
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 WEBHOOK = os.environ.get("DISCORD_WEBHOOK_URL", "")
 SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")  # 例: https://USER.github.io/REPO
 PER_FEED = 8  # 1フィードあたりの候補数（特定ソースの偏り防止）
