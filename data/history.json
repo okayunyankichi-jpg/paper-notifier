@@ -20,5 +20,16 @@
     "source": "Science News",
     "kind": "ニュース",
     "url": "https://www.science.org/content/article/problems-22-scientific-fields-had-solutions-hiding-plain-sight-ai-has-found-them"
+  },
+  {
+    "date": "2026-10-11",
+    "title_orig": "Human claustrum neurons encode uncertainty and prediction errors during aversive learning",
+    "title_ja": "ヒトの前障ニューロンが嫌悪学習時の不確実性と予測誤差を符号化する",
+    "summary_ja": "脳の深部に位置し、機能に謎が多かった「前障（claustrum）」の神経活動を調べた研究成果が報告されました。研究チームは、不快な刺激などを避ける嫌悪学習の最中に、ヒトの前障ニューロンが不確実性と予測誤差の情報を追跡していることを突き止めました。この知見は、変化する環境下で脳が信念を更新し、状況に適応した行動を導くために前障が重要な役割を果たしていることを示しています。",
+    "why_ja": "機能の解明が進んでいなかった前障のヒト単一神経細胞レベルでの活動を捉え、予測誤差や学習の計算論的役割を実証した点で非常に意義深い発見です。",
+    "field": "脳神経科学",
+    "source": "Nature Neuroscience",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s41593-026-02475-x"
   }
 ]
