@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "date": "2026-10-10",
+    "title_orig": "Alzheimer’s disease target and drug discovery by leveraging multiomics and electronic health data",
+    "title_ja": "マルチオミクスと実臨床データを統合したアルツハイマー病の標的同定と創薬",
+    "summary_ja": "研究チームは、ヒトの遺伝情報と実臨床の患者データを活用し、アルツハイマー病に対する創薬標的の網羅的なリストを提示しました。さらに、ヒトモデルを用いたCRISPR干渉およびゲノム編集実験により、エポキシド加水分解酵素2（epoxide hydrolase 2）が疾患の因果的な標的であることを検証しました。大規模データ解析と細胞実験を組み合わせることで、新たな治療標的の同定に成功しています。",
+    "why_ja": "実臨床データと遺伝学的知見を統合して有望な標的を絞り込み、最先端の遺伝子操作技術によって因果関係を実証した創薬アプローチとして重要です。",
+    "field": "脳神経科学",
+    "source": "Nature Neuroscience",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s41593-026-02472-0"
+  }
+]
