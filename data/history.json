@@ -31,5 +31,16 @@
     "source": "Nature Neuroscience",
     "kind": "査読済み",
     "url": "https://www.nature.com/articles/s41593-026-02475-x"
+  },
+  {
+    "date": "2026-10-12",
+    "title_orig": "The Onset of Breathing at Birth Switches Off Regenerative Capacity",
+    "title_ja": "出生時の呼吸開始が組織の再生能力をオフにするスイッチとなる",
+    "summary_ja": "哺乳類では成体になると中枢神経系を含む多くの組織で再生能力が失われますが、その移行がいつ、どのように起きるのかは未解明でした。マウスを用いた本研究では、細胞増殖や再生能の指標となるmTORシグナルが出生後数分以内に神経細胞や心筋などで急低下することを発見しました。網膜神経節細胞の解析から、この急激な低下は出生に伴う呼吸の開始と二酸化炭素の排出が主な引き金であることが示されています。なお、本知見はbioRxivに掲載されたプレプリントであり、査読前の報告です。",
+    "why_ja": "誕生直後の「呼吸の開始」という生理的な劇的変化そのものが、全身の組織再生能を遮断する引き金になっている可能性を示した極めて新規性の高い発見です。",
+    "field": "生命科学",
+    "source": "bioRxiv Neuroscience",
+    "kind": "プレプリント",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.756425v1?rss=1"
   }
 ]

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>出生時の呼吸開始が組織の再生能力をオフにするスイッチとなる</title><link>https://www.biorxiv.org/content/10.64898/2026.10.03.756425v1?rss=1</link>
+<guid isPermaLink="false">https://www.biorxiv.org/content/10.64898/2026.10.03.756425v1?rss=1</guid>
+<pubDate>Mon, 12 Oct 2026 00:00:00 +0900</pubDate>
+<description>哺乳類では成体になると中枢神経系を含む多くの組織で再生能力が失われますが、その移行がいつ、どのように起きるのかは未解明でした。マウスを用いた本研究では、細胞増殖や再生能の指標となるmTORシグナルが出生後数分以内に神経細胞や心筋などで急低下することを発見しました。網膜神経節細胞の解析から、この急激な低下は出生に伴う呼吸の開始と二酸化炭素の排出が主な引き金であることが示されています。なお、本知見はbioRxivに掲載されたプレプリントであり、査読前の報告です。 / 誕生直後の「呼吸の開始」という生理的な劇的変化そのものが、全身の組織再生能を遮断する引き金になっている可能性を示した極めて新規性の高い発見です。</description></item>
 <item><title>ヒトの前障ニューロンが嫌悪学習時の不確実性と予測誤差を符号化する</title><link>https://www.nature.com/articles/s41593-026-02475-x</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02475-x</guid>
 <pubDate>Sun, 11 Oct 2026 00:00:00 +0900</pubDate>
