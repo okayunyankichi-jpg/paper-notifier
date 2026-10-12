@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>睡眠に潜む隠れたシグナルが将来の健康状態を予測する</title><link>https://www.nature.com/articles/d41586-026-03207-8</link>
+<guid isPermaLink="false">https://www.nature.com/articles/d41586-026-03207-8</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 +0900</pubDate>
+<description>AIツールを用いることで、わずか一晩の睡眠データから疾患や死亡リスクに関連する生理学的パターンを検出できることが示されました。これらの特徴的な生体パターンは、従来の標準的な睡眠測定法では見落とされていたものです。睡眠中の潜在的なシグナルをAIによって解析することで、将来の健康状態を予測する新たな可能性が示されています。 / 日常的な一晩の睡眠データから、従来の検査では見逃されていた疾患や死亡リスクに関わる微細なシグナルをAIが抽出できる点に大きなインパクトがあります。</description></item>
 <item><title>出生時の呼吸開始が組織の再生能力をオフにするスイッチとなる</title><link>https://www.biorxiv.org/content/10.64898/2026.10.03.756425v1?rss=1</link>
 <guid isPermaLink="false">https://www.biorxiv.org/content/10.64898/2026.10.03.756425v1?rss=1</guid>
 <pubDate>Mon, 12 Oct 2026 00:00:00 +0900</pubDate>

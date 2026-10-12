@@ -42,5 +42,16 @@
     "source": "bioRxiv Neuroscience",
     "kind": "プレプリント",
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.756425v1?rss=1"
+  },
+  {
+    "date": "2026-10-13",
+    "title_orig": "Hidden signals in sleep can predict future health",
+    "title_ja": "睡眠に潜む隠れたシグナルが将来の健康状態を予測する",
+    "summary_ja": "AIツールを用いることで、わずか一晩の睡眠データから疾患や死亡リスクに関連する生理学的パターンを検出できることが示されました。これらの特徴的な生体パターンは、従来の標準的な睡眠測定法では見落とされていたものです。睡眠中の潜在的なシグナルをAIによって解析することで、将来の健康状態を予測する新たな可能性が示されています。",
+    "why_ja": "日常的な一晩の睡眠データから、従来の検査では見逃されていた疾患や死亡リスクに関わる微細なシグナルをAIが抽出できる点に大きなインパクトがあります。",
+    "field": "生命科学",
+    "source": "Nature",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/d41586-026-03207-8"
   }
 ]
