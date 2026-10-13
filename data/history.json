@@ -53,5 +53,16 @@
     "source": "Nature",
     "kind": "査読済み",
     "url": "https://www.nature.com/articles/d41586-026-03207-8"
+  },
+  {
+    "date": "2026-10-14",
+    "title_orig": "Task-structured modularity emerges in artificial networks and aligns with brain architecture",
+    "title_ja": "人工ニューラルネットワークに生じるモジュール構造が脳のネットワーク構造と一致する",
+    "summary_ja": "複数のタスクを学習する人工ニューラルネットワークにおいて、特にネットワークの容量に制約がある場合に、特定の役割に特化したモジュールへと自己組織化することが示されました。さらに、タスクを段階的に学習させる漸進的マルチタスク学習を行うことでこのモジュール性が強まることが確認されました。この結果として生じるネットワーク構造は、実際の脳のアーキテクチャと類似していることが明らかになりました。",
+    "why_ja": "AIの限られたリソース下での学習過程が、生物の脳が持つモジュール構造に自然と収斂することを示唆しており、AIと脳神経科学をつなぐ興味深い知見です。",
+    "field": "脳神経科学",
+    "source": "Nature Machine Intelligence",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s42256-026-01306-9"
   }
 ]

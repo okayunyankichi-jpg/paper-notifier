@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>人工ニューラルネットワークに生じるモジュール構造が脳のネットワーク構造と一致する</title><link>https://www.nature.com/articles/s42256-026-01306-9</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s42256-026-01306-9</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 +0900</pubDate>
+<description>複数のタスクを学習する人工ニューラルネットワークにおいて、特にネットワークの容量に制約がある場合に、特定の役割に特化したモジュールへと自己組織化することが示されました。さらに、タスクを段階的に学習させる漸進的マルチタスク学習を行うことでこのモジュール性が強まることが確認されました。この結果として生じるネットワーク構造は、実際の脳のアーキテクチャと類似していることが明らかになりました。 / AIの限られたリソース下での学習過程が、生物の脳が持つモジュール構造に自然と収斂することを示唆しており、AIと脳神経科学をつなぐ興味深い知見です。</description></item>
 <item><title>睡眠に潜む隠れたシグナルが将来の健康状態を予測する</title><link>https://www.nature.com/articles/d41586-026-03207-8</link>
 <guid isPermaLink="false">https://www.nature.com/articles/d41586-026-03207-8</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 +0900</pubDate>
