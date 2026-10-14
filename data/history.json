@@ -64,5 +64,16 @@
     "source": "Nature Machine Intelligence",
     "kind": "査読済み",
     "url": "https://www.nature.com/articles/s42256-026-01306-9"
+  },
+  {
+    "date": "2026-10-15",
+    "title_orig": "Alus harbor genetic variants that shape the human cortex",
+    "title_ja": "ヒトの大脳皮質を形づくる遺伝的変異が転移因子「Alu」の中に特定される",
+    "summary_ja": "ヒトの大脳皮質の発達に関連する遺伝的変化は、特に遺伝子制御の文脈において機能検証が困難でした。研究チームは、ヒトの皮質構造を形づくる遺伝的変異が「Alu」と呼ばれる転移因子の内部に隠れていることを明らかにしました。これらの変異はAluに本来備わっている機構を利用することで、発達中の脳における遺伝子制御ネットワークを再配線していることが示されました。",
+    "why_ja": "ヒト特有の脳構造を決定づける遺伝的変異が転移因子に存在し、それが発達期の遺伝子制御を書き換えていることを実証した極めて興味深い成果です。",
+    "field": "脳神経科学",
+    "source": "Nature Neuroscience",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s41593-026-02492-w"
   }
 ]
