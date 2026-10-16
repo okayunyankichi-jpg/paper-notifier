@@ -86,5 +86,16 @@
     "source": "Nature Neuroscience",
     "kind": "査読済み",
     "url": "https://www.nature.com/articles/s41593-026-02490-y"
+  },
+  {
+    "date": "2026-10-17",
+    "title_orig": "Real-time intracortical decoding from human motor cortex reveals a task-independent commitment to act that aligns with conscious intent",
+    "title_ja": "ヒト運動皮質からのリアルタイム解読が明かす、意識的意図と一致する行動へのコミットメント",
+    "summary_ja": "本研究はプレプリント（未査読論文）ですが、運動に先行する神経信号が「行動への決定」を意味し、意識的意図と一致するのかを検証した興味深い報告です。手首の伸展機能が残存する四肢麻痺患者3名を対象に、運動皮質の活動から動きの意図を検出して先回りする仮想敵と対戦する閉ループ実験を実施しました。その結果、実際の動作が始まる250〜400ミリ秒前に運動皮質から動作開始が高精度に予測可能であることが判明しました。参加者がどれほど予測不能に行動しようと試みても、94%の試行で行動を先回りされました。",
+    "why_ja": "脳シグナルから人の自発的動作が始まる数百ミリ秒前に意図を検出し、先回りして阻止できることをヒトの閉ループBCIで実証した点が非常に刺激的です。",
+    "field": "脳神経科学",
+    "source": "bioRxiv Neuroscience",
+    "kind": "プレプリント",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759437v1?rss=1"
   }
 ]
