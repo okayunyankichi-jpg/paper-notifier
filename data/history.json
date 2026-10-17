@@ -97,5 +97,16 @@
     "source": "bioRxiv Neuroscience",
     "kind": "プレプリント",
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759437v1?rss=1"
+  },
+  {
+    "date": "2026-10-18",
+    "title_orig": "Spatiotemporal AI-based modeling of gene regulation and variant effects in the developing human brain using Seal",
+    "title_ja": "AIフレームワーク「Seal」によるヒト発達期脳の遺伝子発現調節と変異影響の時空間モデリング",
+    "summary_ja": "発達中のヒト脳における遺伝子調節と変異の影響を解析する新たな人工知能フレームワーク「Seal」が開発されました。Sealは802種類に及ぶ脳細胞状態における調節変異の影響を予測し、時空間的な遺伝子調節の動態を明らかにします。さらに、神経精神疾患に関連する特定の細胞タイプや発生段階をピンポイントで特定することにも成功しました。",
+    "why_ja": "AIを活用して膨大な細胞状態ごとの変異影響を高精度に予測し、神経精神疾患に関わる発生段階や標的細胞を特定できる点で極めて重要です。",
+    "field": "脳神経科学",
+    "source": "Nature Neuroscience",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s41593-026-02470-2"
   }
 ]
