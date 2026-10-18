@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>加齢に伴う認知機能の維持を支える分泌型酵素を同定</title><link>https://www.nature.com/articles/s41593-026-02465-z</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02465-z</guid>
+<pubDate>Mon, 19 Oct 2026 00:00:00 +0900</pubDate>
+<description>本研究は、海馬歯状回に存在する分泌型ホスホリパーゼが、加齢に応答する代償機構を担っていることを突き止めました。この酵素は、神経保護や認知的な回復力（レジリエンス）の促進に関与していることが示されています。加齢に伴う脳の変化に対して認知機能がどのように守られるのか、その生物学的メカニズムの一端を明らかにしました。 / 老化しても記憶や認知機能が保たれる仕組みに迫る発見であり、将来的な神経保護アプローチの理解につながる重要な知見です。</description></item>
 <item><title>AIフレームワーク「Seal」によるヒト発達期脳の遺伝子発現調節と変異影響の時空間モデリング</title><link>https://www.nature.com/articles/s41593-026-02470-2</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02470-2</guid>
 <pubDate>Sun, 18 Oct 2026 00:00:00 +0900</pubDate>
