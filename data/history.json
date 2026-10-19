@@ -119,5 +119,16 @@
     "source": "Nature Neuroscience",
     "kind": "査読済み",
     "url": "https://www.nature.com/articles/s41593-026-02465-z"
+  },
+  {
+    "date": "2026-10-20",
+    "title_orig": "An amygdala-mediated simulation-to-decision cascade aligns interbrain dynamics to solve social dilemmas",
+    "title_ja": "社会的ジレンマを解決する脳間ダイナミクス：扁桃体を介したシミュレーションと意思決定の同期",
+    "summary_ja": "人間同士が社会的ジレンマを乗り越えて協力関係を築く際、脳内でどのような神経活動が起きているかは大きな謎でした。研究チームは、相互作用を行う人間のペアから同時に頭蓋内脳波を直接記録する手法を用いました。その結果、扁桃体の活動がパートナー同士で同調し、相手の行動予測に基づいて自身の意思決定を導くカスケードが働くことで、相互協力が成立することが明らかになりました。",
+    "why_ja": "人と人との協力が生まれる瞬間を、ヒト脳の頭蓋内直接記録によって神経回路およびペア間のダイナミクスとして捉えた画期的な成果です。",
+    "field": "脳神経科学",
+    "source": "Nature Neuroscience",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s41593-026-02473-z"
   }
 ]

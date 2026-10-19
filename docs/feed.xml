@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>社会的ジレンマを解決する脳間ダイナミクス：扁桃体を介したシミュレーションと意思決定の同期</title><link>https://www.nature.com/articles/s41593-026-02473-z</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02473-z</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 +0900</pubDate>
+<description>人間同士が社会的ジレンマを乗り越えて協力関係を築く際、脳内でどのような神経活動が起きているかは大きな謎でした。研究チームは、相互作用を行う人間のペアから同時に頭蓋内脳波を直接記録する手法を用いました。その結果、扁桃体の活動がパートナー同士で同調し、相手の行動予測に基づいて自身の意思決定を導くカスケードが働くことで、相互協力が成立することが明らかになりました。 / 人と人との協力が生まれる瞬間を、ヒト脳の頭蓋内直接記録によって神経回路およびペア間のダイナミクスとして捉えた画期的な成果です。</description></item>
 <item><title>加齢に伴う認知機能の維持を支える分泌型酵素を同定</title><link>https://www.nature.com/articles/s41593-026-02465-z</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02465-z</guid>
 <pubDate>Mon, 19 Oct 2026 00:00:00 +0900</pubDate>
