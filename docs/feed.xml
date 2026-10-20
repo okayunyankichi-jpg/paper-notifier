@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>推論型大規模言語モデルの理解と監視可能性に向けて</title><link>https://www.nature.com/articles/s42256-026-01333-6</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s42256-026-01333-6</guid>
+<pubDate>Wed, 21 Oct 2026 00:00:00 +0900</pubDate>
+<description>最先端の大規模言語モデル（LLM）は段階的に問題を解決するよう訓練されており、人間が理解できる自然言語で推論テキストを出力します。しかし、これらの生成された推論トークンは、モデル内部の計算過程を正確に説明したものではないことが指摘されています。この乖離は、LLMの挙動を外側から適切に追跡・監視する上で大きな課題を生じさせています。 / 思考プロセスを出力する最新の推論型AIにおいて、その「思考の言葉」が実際の内部計算と一致していないという根本的な監視の難しさに警鐘を鳴らす重要な論考です。</description></item>
 <item><title>社会的ジレンマを解決する脳間ダイナミクス：扁桃体を介したシミュレーションと意思決定の同期</title><link>https://www.nature.com/articles/s41593-026-02473-z</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02473-z</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 +0900</pubDate>

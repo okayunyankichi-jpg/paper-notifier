@@ -130,5 +130,16 @@
     "source": "Nature Neuroscience",
     "kind": "査読済み",
     "url": "https://www.nature.com/articles/s41593-026-02473-z"
+  },
+  {
+    "date": "2026-10-21",
+    "title_orig": "Towards understanding and monitorability of reasoning LLMs",
+    "title_ja": "推論型大規模言語モデルの理解と監視可能性に向けて",
+    "summary_ja": "最先端の大規模言語モデル（LLM）は段階的に問題を解決するよう訓練されており、人間が理解できる自然言語で推論テキストを出力します。しかし、これらの生成された推論トークンは、モデル内部の計算過程を正確に説明したものではないことが指摘されています。この乖離は、LLMの挙動を外側から適切に追跡・監視する上で大きな課題を生じさせています。",
+    "why_ja": "思考プロセスを出力する最新の推論型AIにおいて、その「思考の言葉」が実際の内部計算と一致していないという根本的な監視の難しさに警鐘を鳴らす重要な論考です。",
+    "field": "AI",
+    "source": "Nature Machine Intelligence",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s42256-026-01333-6"
   }
 ]
