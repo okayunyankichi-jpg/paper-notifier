@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>多言語脳デコーディングが解き明かす言語を超えた共通の大脳皮質意味幾何学</title><link>https://arxiv.org/abs/2610.26927</link>
+<guid isPermaLink="false">https://arxiv.org/abs/2610.26927</guid>
+<pubDate>Thu, 22 Oct 2026 00:00:00 +0900</pubDate>
+<description>本研究は、中国語、英語、フランス語の話者227名の脳活動記録を解析する多言語脳デコーディングフレームワークを開発したプレプリント（未査読）の成果です。人間の言語は語彙や構文が大きく異なっていても同様の意味内容を伝達できますが、その神経基盤は未解明でした。解析の結果、大脳皮質における意味表現は言語や個人を超えて一貫した幾何学的関係を示し、共通の皮質意味幾何学が存在することが明らかになりました。さらに、この一貫性は感覚運動皮質から高次の連合皮質に向かうにつれて強まることが示されています。 / 異なる言語体系を持ちながら人間がどのように共通の意味を脳内で表現しているのかを先端のデコーディング技術で幾何学的に明らかにしており、脳とAIの言語理解の接点としても示唆に富む研究です。</description></item>
 <item><title>推論型大規模言語モデルの理解と監視可能性に向けて</title><link>https://www.nature.com/articles/s42256-026-01333-6</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s42256-026-01333-6</guid>
 <pubDate>Wed, 21 Oct 2026 00:00:00 +0900</pubDate>
