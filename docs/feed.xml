@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>CRISPRの新たな一歩：プライム編集がヒト生体内で直接DNAを改変する初の臨床応用</title><link>https://www.nature.com/articles/d41586-026-03371-x</link>
+<guid isPermaLink="false">https://www.nature.com/articles/d41586-026-03371-x</guid>
+<pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
+<description>高精度なゲノム編集技術である「プライム編集（prime editing）」を用いて、ヒトの体内で直接DNAを書き換える初の応用が実施されました。今回の試みは、肝臓や神経に障害を引き起こす可能性がある遺伝性疾患の治療を目的とした臨床試験の一環です。従来のCRISPR技術よりも精密とされる手法が生体内で直接機能することを示す重要な前進となります。 / 次世代の精密ゲノム編集が生体内（in vivo）治療としてヒトへ初めて適用され、遺伝病治療の新たなマイルストーンとなるためです。</description></item>
 <item><title>多言語脳デコーディングが解き明かす言語を超えた共通の大脳皮質意味幾何学</title><link>https://arxiv.org/abs/2610.26927</link>
 <guid isPermaLink="false">https://arxiv.org/abs/2610.26927</guid>
 <pubDate>Thu, 22 Oct 2026 00:00:00 +0900</pubDate>

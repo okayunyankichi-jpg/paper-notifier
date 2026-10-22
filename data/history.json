@@ -152,5 +152,16 @@
     "source": "arXiv q-bio.NC",
     "kind": "プレプリント",
     "url": "https://arxiv.org/abs/2610.26927"
+  },
+  {
+    "date": "2026-10-23",
+    "title_orig": "A first for CRISPR: powerful prime editing alters DNA directly in the human body",
+    "title_ja": "CRISPRの新たな一歩：プライム編集がヒト生体内で直接DNAを改変する初の臨床応用",
+    "summary_ja": "高精度なゲノム編集技術である「プライム編集（prime editing）」を用いて、ヒトの体内で直接DNAを書き換える初の応用が実施されました。今回の試みは、肝臓や神経に障害を引き起こす可能性がある遺伝性疾患の治療を目的とした臨床試験の一環です。従来のCRISPR技術よりも精密とされる手法が生体内で直接機能することを示す重要な前進となります。",
+    "why_ja": "次世代の精密ゲノム編集が生体内（in vivo）治療としてヒトへ初めて適用され、遺伝病治療の新たなマイルストーンとなるためです。",
+    "field": "生命科学",
+    "source": "Nature",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/d41586-026-03371-x"
   }
 ]
