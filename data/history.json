@@ -163,5 +163,16 @@
     "source": "Nature",
     "kind": "査読済み",
     "url": "https://www.nature.com/articles/d41586-026-03371-x"
+  },
+  {
+    "date": "2026-10-24",
+    "title_orig": "A corticohypothalamic circuit that mediates maternal awakening to pup cries",
+    "title_ja": "子の泣き声で母親を目覚めさせる皮質-視床下部回路の同定",
+    "summary_ja": "研究チームは、母マウスが睡眠中に子の泣き声へ選択的に反応して目覚めることを可能にする脳回路を同定しました。母親になることでドーパミンD1受容体の発現が増加し、この神経経路が強化されることが判明しました。この仕組みにより、母親は睡眠中であっても子のシグナルに適切に応答できるようになります。",
+    "why_ja": "親が睡眠中でも我が子の泣き声に敏感に気づけるという現象の背後にある、具体的な脳回路と受容体の変化を解明した点が興味深いです。",
+    "field": "脳神経科学",
+    "source": "Nature Neuroscience",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s41593-026-02458-y"
   }
 ]
