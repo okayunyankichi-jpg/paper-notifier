@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>神経階層型処理アーキテクチャを備えた大規模イオントロニック皮膚</title><link>https://www.nature.com/articles/s42256-026-01325-6</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s42256-026-01325-6</guid>
+<pubDate>Sun, 25 Oct 2026 00:00:00 +0900</pubDate>
+<description>研究チームは、神経系の階層構造に着想を得た情報処理アーキテクチャを持つ大規模な電子皮膚を開発しました。この皮膚は高密度のイオントロニックセンサアレイに高速読み出しおよびデータ圧縮技術を組み合わせています。これにより、ヒト型ロボットが微細な質感を感知したり、繊細な物体を器用に操作したりすることが可能になります。さらに、危険を察知するような侵害受容刺激に対しても適切に応答できるようになります。 / 生体の神経系のような階層的処理を取り入れることで、ロボットが高解像度の触覚情報や危険刺激を効率的に処理・識別できるようになる点が画期的です。</description></item>
 <item><title>子の泣き声で母親を目覚めさせる皮質-視床下部回路の同定</title><link>https://www.nature.com/articles/s41593-026-02458-y</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02458-y</guid>
 <pubDate>Sat, 24 Oct 2026 00:00:00 +0900</pubDate>
