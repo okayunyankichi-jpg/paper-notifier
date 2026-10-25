@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>幻覚剤の持続的な抗うつ効果を担う受容体シグナル機構を特定</title><link>https://www.nature.com/articles/s41593-026-02497-5</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02497-5</guid>
+<pubDate>Mon, 26 Oct 2026 00:00:00 +0900</pubDate>
+<description>本研究は、サイケデリクス（幻覚剤）がもたらす持続的な抗うつ様効果が、5-HT2A受容体とβ-アレスチンによるシグナル伝達によって引き起こされることを明らかにしました。マウス実験において、低用量のLSDを反復投与することで、幻覚様行動を伴わずにこの抗うつ様効果を維持できることが示されました。さらに、同様の条件下ではサルにおいても幻覚様行動は誘発されませんでした。 / サイケデリクス治療における最大の課題である幻覚作用と抗うつ効果を分離できるメカニズムを示しており、副作用を抑えた革新的な精神疾患治療薬の開発につながる重要な発見です。</description></item>
 <item><title>神経階層型処理アーキテクチャを備えた大規模イオントロニック皮膚</title><link>https://www.nature.com/articles/s42256-026-01325-6</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s42256-026-01325-6</guid>
 <pubDate>Sun, 25 Oct 2026 00:00:00 +0900</pubDate>

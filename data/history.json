@@ -185,5 +185,16 @@
     "source": "Nature Machine Intelligence",
     "kind": "査読済み",
     "url": "https://www.nature.com/articles/s42256-026-01325-6"
+  },
+  {
+    "date": "2026-10-26",
+    "title_orig": "Sustained antidepressant-like effects of psychedelics through 5-HT 2A R–β-arrestin signaling",
+    "title_ja": "幻覚剤の持続的な抗うつ効果を担う受容体シグナル機構を特定",
+    "summary_ja": "本研究は、サイケデリクス（幻覚剤）がもたらす持続的な抗うつ様効果が、5-HT2A受容体とβ-アレスチンによるシグナル伝達によって引き起こされることを明らかにしました。マウス実験において、低用量のLSDを反復投与することで、幻覚様行動を伴わずにこの抗うつ様効果を維持できることが示されました。さらに、同様の条件下ではサルにおいても幻覚様行動は誘発されませんでした。",
+    "why_ja": "サイケデリクス治療における最大の課題である幻覚作用と抗うつ効果を分離できるメカニズムを示しており、副作用を抑えた革新的な精神疾患治療薬の開発につながる重要な発見です。",
+    "field": "脳神経科学",
+    "source": "Nature Neuroscience",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s41593-026-02497-5"
   }
 ]
