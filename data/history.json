@@ -196,5 +196,16 @@
     "source": "Nature Neuroscience",
     "kind": "査読済み",
     "url": "https://www.nature.com/articles/s41593-026-02497-5"
+  },
+  {
+    "date": "2026-10-27",
+    "title_orig": "Microglial NUS1 deficiency drives dopaminergic neurodegeneration through intercellular iron dysregulation in Parkinson’s disease models",
+    "title_ja": "ミクログリアのNUS1欠損が細胞間の鉄代謝異常を介してパーキンソン病モデルの神経変性を引き起こす",
+    "summary_ja": "パーキンソン病のリスク遺伝子であるNUS1が関与する神経変性のメカニズムが、細胞モデルおよびマウスモデルを用いた研究で報告されました。脳内の免疫細胞であるミクログリアにおいてNUS1が欠損すると、細胞間における鉄の恒常性（ホメオスタシス）が崩れることが判明しました。この異常によって神経細胞に鉄が過剰に蓄積し、結果としてドーパミン作動性神経の変性が引き起こされることが示されています。",
+    "why_ja": "ミクログリアにおける特定遺伝子の機能不全が、鉄の代謝異常を通じて神経細胞死を招く直接的な経路を示した点で、パーキンソン病の病態解明に迫る重要な成果です。",
+    "field": "脳神経科学",
+    "source": "Nature Neuroscience",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s41593-026-02499-3"
   }
 ]

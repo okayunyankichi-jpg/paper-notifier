@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>ミクログリアのNUS1欠損が細胞間の鉄代謝異常を介してパーキンソン病モデルの神経変性を引き起こす</title><link>https://www.nature.com/articles/s41593-026-02499-3</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02499-3</guid>
+<pubDate>Tue, 27 Oct 2026 00:00:00 +0900</pubDate>
+<description>パーキンソン病のリスク遺伝子であるNUS1が関与する神経変性のメカニズムが、細胞モデルおよびマウスモデルを用いた研究で報告されました。脳内の免疫細胞であるミクログリアにおいてNUS1が欠損すると、細胞間における鉄の恒常性（ホメオスタシス）が崩れることが判明しました。この異常によって神経細胞に鉄が過剰に蓄積し、結果としてドーパミン作動性神経の変性が引き起こされることが示されています。 / ミクログリアにおける特定遺伝子の機能不全が、鉄の代謝異常を通じて神経細胞死を招く直接的な経路を示した点で、パーキンソン病の病態解明に迫る重要な成果です。</description></item>
 <item><title>幻覚剤の持続的な抗うつ効果を担う受容体シグナル機構を特定</title><link>https://www.nature.com/articles/s41593-026-02497-5</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02497-5</guid>
 <pubDate>Mon, 26 Oct 2026 00:00:00 +0900</pubDate>
