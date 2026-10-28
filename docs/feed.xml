@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>ヒト扁桃体の刺激特異的ニューロンがエピソード記憶の成否を予測する</title><link>https://www.nature.com/articles/s41593-026-02493-9</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02493-9</guid>
+<pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
+<description>人間が経験した出来事のうち、どれが持続的な記憶として残るかを決定する神経メカニズムについて研究が行われました。本研究では、ヒトの扁桃体において刺激特異的に活動するニューロン群が、どの経験が長期的なエピソード記憶になるかを左右していることを明らかにしました。この成果はエピソード記憶の形成を予測する仕組みを示すものであり、将来的な記憶障害の治療法開発に指針を与える可能性があります。 / 情動に関わる扁桃体のニューロンが「どの経験を残すか」を決定づけていることをヒト脳で直接示した点が極めて興味深い発見です。基礎的な記憶プロセスの理解にとどまらず、記憶障害に対する新たな治療戦略への道を開く成果として注目されます。</description></item>
 <item><title>パラメータ未調整の全身コネクトームから創発するハエの感覚運動行動</title><link>https://arxiv.org/abs/2610.33881</link>
 <guid isPermaLink="false">https://arxiv.org/abs/2610.33881</guid>
 <pubDate>Wed, 28 Oct 2026 00:00:00 +0900</pubDate>

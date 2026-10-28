@@ -218,5 +218,16 @@
     "source": "arXiv q-bio.NC",
     "kind": "プレプリント",
     "url": "https://arxiv.org/abs/2610.33881"
+  },
+  {
+    "date": "2026-10-29",
+    "title_orig": "Stimulus-specific recruitment of human amygdala neurons predicts episodic memory encoding success",
+    "title_ja": "ヒト扁桃体の刺激特異的ニューロンがエピソード記憶の成否を予測する",
+    "summary_ja": "人間が経験した出来事のうち、どれが持続的な記憶として残るかを決定する神経メカニズムについて研究が行われました。本研究では、ヒトの扁桃体において刺激特異的に活動するニューロン群が、どの経験が長期的なエピソード記憶になるかを左右していることを明らかにしました。この成果はエピソード記憶の形成を予測する仕組みを示すものであり、将来的な記憶障害の治療法開発に指針を与える可能性があります。",
+    "why_ja": "情動に関わる扁桃体のニューロンが「どの経験を残すか」を決定づけていることをヒト脳で直接示した点が極めて興味深い発見です。基礎的な記憶プロセスの理解にとどまらず、記憶障害に対する新たな治療戦略への道を開く成果として注目されます。",
+    "field": "脳神経科学",
+    "source": "Nature Neuroscience",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s41593-026-02493-9"
   }
 ]
