@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>海馬における表現の分離と汎化を支える神経回路メカニズム</title><link>https://www.nature.com/articles/s41593-026-02491-x</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02491-x</guid>
+<pubDate>Fri, 30 Oct 2026 00:00:00 +0900</pubDate>
+<description>海馬が経験の異なる側面をそれぞれ分離された独立した変数として符号化していることを明らかにした研究です。この符号化様式によって、情報を柔軟に再結合し、未知の新しい状況へと汎化させることが可能になります。さらに、この神経コードが集団ダイナミクスの幾何学的構造と細胞集団（セル・アセンブリ）間の相互作用によって支えられていることが示されました。 / 人工知能の重要課題でもある「表現のもつれを解くこと（disentanglement）」と「汎化」を、脳の海馬がどのような回路幾何学で実現しているかを解き明かした点が極めて興味深い知見です。</description></item>
 <item><title>ヒト扁桃体の刺激特異的ニューロンがエピソード記憶の成否を予測する</title><link>https://www.nature.com/articles/s41593-026-02493-9</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02493-9</guid>
 <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>

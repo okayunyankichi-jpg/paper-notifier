@@ -229,5 +229,16 @@
     "source": "Nature Neuroscience",
     "kind": "査読済み",
     "url": "https://www.nature.com/articles/s41593-026-02493-9"
+  },
+  {
+    "date": "2026-10-30",
+    "title_orig": "Circuit mechanisms for disentangled representations and generalization in the hippocampus",
+    "title_ja": "海馬における表現の分離と汎化を支える神経回路メカニズム",
+    "summary_ja": "海馬が経験の異なる側面をそれぞれ分離された独立した変数として符号化していることを明らかにした研究です。この符号化様式によって、情報を柔軟に再結合し、未知の新しい状況へと汎化させることが可能になります。さらに、この神経コードが集団ダイナミクスの幾何学的構造と細胞集団（セル・アセンブリ）間の相互作用によって支えられていることが示されました。",
+    "why_ja": "人工知能の重要課題でもある「表現のもつれを解くこと（disentanglement）」と「汎化」を、脳の海馬がどのような回路幾何学で実現しているかを解き明かした点が極めて興味深い知見です。",
+    "field": "脳神経科学",
+    "source": "Nature Neuroscience",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s41593-026-02491-x"
   }
 ]
