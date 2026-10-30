@@ -240,5 +240,16 @@
     "source": "Nature Neuroscience",
     "kind": "査読済み",
     "url": "https://www.nature.com/articles/s41593-026-02491-x"
+  },
+  {
+    "date": "2026-10-31",
+    "title_orig": "Guidelines for evaluating structure-based methods for protein–ligand binding prediction",
+    "title_ja": "タンパク質-リガンド結合予測の構造ベース手法を評価するためのガイドライン",
+    "summary_ja": "本研究は、タンパク質とリガンドの結合予測モデルを評価するにあたり、データやコード、実験手順の透明性を高める必要性を提唱しています。著者らは、データ漏洩や評価バイアスを防止するための優れた実践手法を議論しています。これらの指針により、異なるスコアリング手法同士を公平かつ再現可能で有意義に比較できるようになるとしています。",
+    "why_ja": "AIを活用した構造ベース創薬スクリーニングの評価基準を整え、モデルの過大評価を防ぎ再現性を担保する上で極めて重要な指針です。",
+    "field": "生命科学",
+    "source": "Nature Machine Intelligence",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s42256-026-01331-8"
   }
 ]

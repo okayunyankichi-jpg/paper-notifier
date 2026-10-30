@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>タンパク質-リガンド結合予測の構造ベース手法を評価するためのガイドライン</title><link>https://www.nature.com/articles/s42256-026-01331-8</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s42256-026-01331-8</guid>
+<pubDate>Sat, 31 Oct 2026 00:00:00 +0900</pubDate>
+<description>本研究は、タンパク質とリガンドの結合予測モデルを評価するにあたり、データやコード、実験手順の透明性を高める必要性を提唱しています。著者らは、データ漏洩や評価バイアスを防止するための優れた実践手法を議論しています。これらの指針により、異なるスコアリング手法同士を公平かつ再現可能で有意義に比較できるようになるとしています。 / AIを活用した構造ベース創薬スクリーニングの評価基準を整え、モデルの過大評価を防ぎ再現性を担保する上で極めて重要な指針です。</description></item>
 <item><title>海馬における表現の分離と汎化を支える神経回路メカニズム</title><link>https://www.nature.com/articles/s41593-026-02491-x</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02491-x</guid>
 <pubDate>Fri, 30 Oct 2026 00:00:00 +0900</pubDate>
