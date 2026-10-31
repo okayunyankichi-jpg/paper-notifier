@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>セロトニンシグナルが脳内マクロファージの貪食能を高め、脳卒中後の脳損傷を軽減する</title><link>https://www.nature.com/articles/s41593-026-02482-y</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02482-y</guid>
+<pubDate>Sun, 01 Nov 2026 00:00:00 +0900</pubDate>
+<description>脳卒中（虚血性脳卒中）後の脳組織では、細胞残骸の蓄積に伴う神経炎症が損傷を広げる要因となります。本研究は、セロトニン受容体「Htr2b」の活性化がリソソームの生合成を促し、脳内マクロファージによる残骸の貪食除去を促進することを明らかにしました。これにより神経炎症と脳損傷が緩和されることが示され、単球由来マクロファージを標的とした新たな免疫療法の可能性が提示されています。 / 神経伝達物質として広く知られるセロトニンが、免疫細胞を介して脳損傷組織のクリアランスと保護に直接働くという意外なメカニズムを解明した点で重要です。</description></item>
 <item><title>タンパク質-リガンド結合予測の構造ベース手法を評価するためのガイドライン</title><link>https://www.nature.com/articles/s42256-026-01331-8</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s42256-026-01331-8</guid>
 <pubDate>Sat, 31 Oct 2026 00:00:00 +0900</pubDate>

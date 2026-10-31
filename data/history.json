@@ -251,5 +251,16 @@
     "source": "Nature Machine Intelligence",
     "kind": "査読済み",
     "url": "https://www.nature.com/articles/s42256-026-01331-8"
+  },
+  {
+    "date": "2026-11-01",
+    "title_orig": "Serotonin signaling enhances phagocytosis by brain macrophages through Htr2b and alleviates brain injury after stroke",
+    "title_ja": "セロトニンシグナルが脳内マクロファージの貪食能を高め、脳卒中後の脳損傷を軽減する",
+    "summary_ja": "脳卒中（虚血性脳卒中）後の脳組織では、細胞残骸の蓄積に伴う神経炎症が損傷を広げる要因となります。本研究は、セロトニン受容体「Htr2b」の活性化がリソソームの生合成を促し、脳内マクロファージによる残骸の貪食除去を促進することを明らかにしました。これにより神経炎症と脳損傷が緩和されることが示され、単球由来マクロファージを標的とした新たな免疫療法の可能性が提示されています。",
+    "why_ja": "神経伝達物質として広く知られるセロトニンが、免疫細胞を介して脳損傷組織のクリアランスと保護に直接働くという意外なメカニズムを解明した点で重要です。",
+    "field": "脳神経科学",
+    "source": "Nature Neuroscience",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s41593-026-02482-y"
   }
 ]
