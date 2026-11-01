@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>ヒト後頭頂皮質における統一された世界モデルの存在を示唆</title><link>https://www.biorxiv.org/content/10.64898/2026.10.30.762936v1?rss=1</link>
+<guid isPermaLink="false">https://www.biorxiv.org/content/10.64898/2026.10.30.762936v1?rss=1</guid>
+<pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate>
+<description>本研究は未査読のプレプリントですが、脳が物理世界を理解し未来を予測する「統一世界モデル」の神経基盤に迫る報告です。研究チームは、微小電極アレイを留置した四肢麻痺の被験者2名の上頭頂小葉（SPL）から神経活動を記録しました。その結果、積み木タワーの安定性判断など直感的な物理現象の観察に関与する神経細胞ユニットが、動く物体が衝突するかどうかを衝突の数百ミリ秒前に予測することが確認されました。これにより、物理事象の直感的理解と未来予測を共通の神経細胞群が担っている可能性が示されています。 / AIや認知科学で注目される「物理世界のモデル」がヒトの脳神経細胞レベルでどのように表現されているかを直接捉えた興味深い研究です。</description></item>
 <item><title>セロトニンシグナルが脳内マクロファージの貪食能を高め、脳卒中後の脳損傷を軽減する</title><link>https://www.nature.com/articles/s41593-026-02482-y</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02482-y</guid>
 <pubDate>Sun, 01 Nov 2026 00:00:00 +0900</pubDate>
