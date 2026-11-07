@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>ヒトの前障は不確実性と予測誤差を追跡している：単一ニューロン記録による発見</title><link>https://www.nature.com/articles/s41593-026-02471-1</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02471-1</guid>
+<pubDate>Sun, 08 Nov 2026 00:00:00 +0900</pubDate>
+<description>適応行動をとるヒトの脳から単一ニューロンの活動を直接記録した研究により、前障（クラウストルム）が不確実性と予測誤差を追跡している直接的な証拠が得られました。前障で見られた応答特性は前帯状皮質の応答とは異なっていました。この結果は、絶え間なく変化する環境において信念を更新し行動を導く過程で、これら2つの脳領域がそれぞれ異なる寄与を果たしている可能性を示しています。 / 長年その役割が謎に包まれてきた脳深部領域「前障」の機能を、ヒトの単一ニューロン計測という極めて貴重なデータから解明した点で神経科学的に大きなインパクトがあります。</description></item>
 <item><title>ヒト後頭頂皮質における統一された世界モデルの存在を示唆</title><link>https://www.biorxiv.org/content/10.64898/2026.10.30.762936v1?rss=1</link>
 <guid isPermaLink="false">https://www.biorxiv.org/content/10.64898/2026.10.30.762936v1?rss=1</guid>
 <pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate>
