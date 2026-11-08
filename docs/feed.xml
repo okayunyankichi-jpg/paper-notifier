@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>表皮ランゲルハンス細胞は痛みと痒みの神経免疫調節因子として機能する</title><link>https://www.biorxiv.org/content/10.64898/2026.11.06.756111v1?rss=1</link>
+<guid isPermaLink="false">https://www.biorxiv.org/content/10.64898/2026.11.06.756111v1?rss=1</guid>
+<pubDate>Mon, 09 Nov 2026 00:00:00 +0900</pubDate>
+<description>なお、本研究はプレプリントであり未査読の報告です。研究チームは、皮膚の表皮に存在する抗原提示細胞であるランゲルハンス細胞（LC）が、皮膚感覚シグナルを局所で増幅するアンプとして機能することを明らかにしました。解析の結果、LCは非ペプチド作動性感覚ニューロンと優先的に結合し、LCの活性化によって熱や機械刺激、痒み刺激に対する神経応答および行動応答が増強することが示されました。一方で、LCの抑制や除去は痒み物質によって引き起こされる痒み応答を選択的に減少させ、この作用に関わる候補因子としてセマフォリン7Aが同定されています。 / 免疫細胞が防御応答にとどまらず、感覚神経と密接に連携して痛みや痒みの知覚を増幅しているという新たな神経免疫連関を明らかにした点が非常に興味深い成果です。</description></item>
 <item><title>ヒトの前障は不確実性と予測誤差を追跡している：単一ニューロン記録による発見</title><link>https://www.nature.com/articles/s41593-026-02471-1</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02471-1</guid>
 <pubDate>Sun, 08 Nov 2026 00:00:00 +0900</pubDate>
