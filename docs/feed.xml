@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>急速な学習による視覚情報の単一ニューロン符号化がヒトの知覚を再構築する</title><link>https://www.nature.com/articles/s41593-026-02496-6</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02496-6</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 +0900</pubDate>
+<description>本研究は、急速な学習がヒトの視覚野における単一ニューロン活動をどのように変調させるかを調査しました。その結果、学習によってニューロン活動が変化し、対象の認識を支えるために追加の処理時間が必要となることが示されました。さらに、この過程で生じたシグナルはフィードバックを必要とせず、記憶関連の領域へと中継されることが明らかになりました。ヒトの学習が視覚知覚を神経細胞レベルでいかに再編成するかを示す成果です。 / ヒト脳の単一ニューロン活動の記録を通じて、学習が視覚認識と記憶関連領域への情報伝達をどのように変えるかを直接捉えた注目すべき研究です。</description></item>
 <item><title>表皮ランゲルハンス細胞は痛みと痒みの神経免疫調節因子として機能する</title><link>https://www.biorxiv.org/content/10.64898/2026.11.06.756111v1?rss=1</link>
 <guid isPermaLink="false">https://www.biorxiv.org/content/10.64898/2026.11.06.756111v1?rss=1</guid>
 <pubDate>Mon, 09 Nov 2026 00:00:00 +0900</pubDate>

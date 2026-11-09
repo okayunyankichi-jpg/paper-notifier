@@ -295,5 +295,16 @@
     "source": "bioRxiv Neuroscience",
     "kind": "プレプリント",
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.756111v1?rss=1"
+  },
+  {
+    "date": "2026-11-10",
+    "title_orig": "Single-neuron encoding of rapidly learned visual information reshapes human perception",
+    "title_ja": "急速な学習による視覚情報の単一ニューロン符号化がヒトの知覚を再構築する",
+    "summary_ja": "本研究は、急速な学習がヒトの視覚野における単一ニューロン活動をどのように変調させるかを調査しました。その結果、学習によってニューロン活動が変化し、対象の認識を支えるために追加の処理時間が必要となることが示されました。さらに、この過程で生じたシグナルはフィードバックを必要とせず、記憶関連の領域へと中継されることが明らかになりました。ヒトの学習が視覚知覚を神経細胞レベルでいかに再編成するかを示す成果です。",
+    "why_ja": "ヒト脳の単一ニューロン活動の記録を通じて、学習が視覚認識と記憶関連領域への情報伝達をどのように変えるかを直接捉えた注目すべき研究です。",
+    "field": "脳神経科学",
+    "source": "Nature Neuroscience",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s41593-026-02496-6"
   }
 ]
