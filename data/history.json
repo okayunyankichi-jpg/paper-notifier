@@ -306,5 +306,16 @@
     "source": "Nature Neuroscience",
     "kind": "査読済み",
     "url": "https://www.nature.com/articles/s41593-026-02496-6"
+  },
+  {
+    "date": "2026-11-11",
+    "title_orig": "Multimodal cell foundation models require synergistic integration beyond alignment",
+    "title_ja": "マルチモーダルな細胞基盤モデルにはアライメントを超えた相乗的統合が求められる",
+    "summary_ja": "生物学における基盤モデルの開発では、多種多様なモダリティのデータを統合することが期待されています。しかし本研究は、異なる種類の生物学的データを単にアライメント（整列）させるだけでは完全な統合には至らないことを示しました。著者らは、データが同じ情報を単に反復しているケースと、互いに相補的な知見をもたらしているケースの違いを明確に浮き彫りにしています。",
+    "why_ja": "生命科学AIにおけるマルチモーダル統合の限界と本質を突き止め、次世代の細胞基盤モデルを設計する上で重要な指針を与えているためです。",
+    "field": "AI",
+    "source": "Nature Machine Intelligence",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s42256-026-01328-3"
   }
 ]

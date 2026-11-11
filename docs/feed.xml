@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>マルチモーダルな細胞基盤モデルにはアライメントを超えた相乗的統合が求められる</title><link>https://www.nature.com/articles/s42256-026-01328-3</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s42256-026-01328-3</guid>
+<pubDate>Wed, 11 Nov 2026 00:00:00 +0900</pubDate>
+<description>生物学における基盤モデルの開発では、多種多様なモダリティのデータを統合することが期待されています。しかし本研究は、異なる種類の生物学的データを単にアライメント（整列）させるだけでは完全な統合には至らないことを示しました。著者らは、データが同じ情報を単に反復しているケースと、互いに相補的な知見をもたらしているケースの違いを明確に浮き彫りにしています。 / 生命科学AIにおけるマルチモーダル統合の限界と本質を突き止め、次世代の細胞基盤モデルを設計する上で重要な指針を与えているためです。</description></item>
 <item><title>急速な学習による視覚情報の単一ニューロン符号化がヒトの知覚を再構築する</title><link>https://www.nature.com/articles/s41593-026-02496-6</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02496-6</guid>
 <pubDate>Tue, 10 Nov 2026 00:00:00 +0900</pubDate>
