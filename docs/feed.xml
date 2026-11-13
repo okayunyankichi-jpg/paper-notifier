@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>睡眠は神経細胞のオートファジーを促進して細胞内クリアランスを担う</title><link>https://www.biorxiv.org/content/10.64898/2026.11.08.764098v1?rss=1</link>
+<guid isPermaLink="false">https://www.biorxiv.org/content/10.64898/2026.11.08.764098v1?rss=1</guid>
+<pubDate>Fri, 13 Nov 2026 00:00:00 +0900</pubDate>
+<description>本研究（未査読のプレプリント）は、睡眠が神経細胞のオートファジー（自食作用）を回復させ、細胞内の恒常性を維持する仕組みをマウスで明らかにしました。長時間の覚醒は皮質のオートファジーの流れを選択的に抑制しますが、睡眠により急速に回復し、分解の標的もミトコンドリア成分からシナプスタンパク質へと変化します。また、睡眠は大脳皮質でのATG7発現を上昇させ、リソソームによる分解などを促します。さらに低い神経活動が効率的なクリアランスと結びついており、神経活動の上昇はオートファジーを阻害してアミロイドβの細胞内蓄積を促すことが示されました。 / 睡眠がなぜ脳の健康に不可欠なのかという根本的な問いに対し、神経細胞内の老廃物除去とアミロイドβ蓄積に関わる分子メカニズムを直接結びつけて解明した点が非常に興味深いです。</description></item>
 <item><title>マルチモーダルな細胞基盤モデルにはアライメントを超えた相乗的統合が求められる</title><link>https://www.nature.com/articles/s42256-026-01328-3</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s42256-026-01328-3</guid>
 <pubDate>Wed, 11 Nov 2026 00:00:00 +0900</pubDate>
