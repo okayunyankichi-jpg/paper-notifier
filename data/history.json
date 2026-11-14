@@ -328,5 +328,16 @@
     "source": "bioRxiv Neuroscience",
     "kind": "プレプリント",
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.764098v1?rss=1"
+  },
+  {
+    "date": "2026-11-14",
+    "title_orig": "Enhancer-targeted CRISPR-A rescues haploinsufficiency and mutant phenotypes in organoid models of autism",
+    "title_ja": "エンハンサー標的型CRISPR-Aによる自閉症オルガノイドの遺伝子発現と表現型の回復",
+    "summary_ja": "研究チームは、自閉症リスク遺伝子であるCHD8およびSCN2Aのエンハンサーを標的とするCRISPR活性化（CRISPR-A）を行いました。これにより、標的遺伝子の発現を選択的に増加させることに成功しました。さらに、患者由来および遺伝子編集による神経細胞モデルと大脳皮質オルガノイドモデルの両方において、変異に伴う表現型の異常を回復させることを実証しました。",
+    "why_ja": "エンハンサーを標的として遺伝子発現を補正することで、オルガノイドモデルにおける神経の病態表現型を改善できる可能性を示した重要な成果です。",
+    "field": "脳神経科学",
+    "source": "Nature Neuroscience",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s41593-026-02504-9"
   }
 ]

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>エンハンサー標的型CRISPR-Aによる自閉症オルガノイドの遺伝子発現と表現型の回復</title><link>https://www.nature.com/articles/s41593-026-02504-9</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02504-9</guid>
+<pubDate>Sat, 14 Nov 2026 00:00:00 +0900</pubDate>
+<description>研究チームは、自閉症リスク遺伝子であるCHD8およびSCN2Aのエンハンサーを標的とするCRISPR活性化（CRISPR-A）を行いました。これにより、標的遺伝子の発現を選択的に増加させることに成功しました。さらに、患者由来および遺伝子編集による神経細胞モデルと大脳皮質オルガノイドモデルの両方において、変異に伴う表現型の異常を回復させることを実証しました。 / エンハンサーを標的として遺伝子発現を補正することで、オルガノイドモデルにおける神経の病態表現型を改善できる可能性を示した重要な成果です。</description></item>
 <item><title>睡眠は神経細胞のオートファジーを促進して細胞内クリアランスを担う</title><link>https://www.biorxiv.org/content/10.64898/2026.11.08.764098v1?rss=1</link>
 <guid isPermaLink="false">https://www.biorxiv.org/content/10.64898/2026.11.08.764098v1?rss=1</guid>
 <pubDate>Fri, 13 Nov 2026 00:00:00 +0900</pubDate>
