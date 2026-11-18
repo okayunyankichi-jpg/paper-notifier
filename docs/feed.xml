@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>ミクログリアによる活動依存的な髄鞘の貪食が運動記憶の減衰を仲介する</title><link>https://www.nature.com/articles/s41593-026-02505-8</link>
+<guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02505-8</guid>
+<pubDate>Wed, 18 Nov 2026 00:00:00 +0900</pubDate>
+<description>研究チームは、運動記憶が減衰するプロセスにミクログリアが記憶関連のミエリン鞘（髄鞘）を貪食することが関与していることを明らかにしました。記憶痕跡（エングラム）の活動が低下すると、「私を食べるな」シグナルとして知られるCD47の発現が低下します。これによりミクログリアを介したミエリンの除去が促進され、結果として記憶の減衰が引き起こされます。 / 記憶の忘却がシナプス結合の変化だけでなく、ミクログリアによる髄鞘の貪食と「私を食べるな」シグナルの低下によって駆動されるという新たな神経基盤を示した点が非常に興味深いです。</description></item>
 <item><title>120万人超のGWAS解析から多次元的な痛みの遺伝的構造を解明</title><link>https://www.nature.com/articles/s41593-026-02455-1</link>
 <guid isPermaLink="false">https://www.nature.com/articles/s41593-026-02455-1</guid>
 <pubDate>Mon, 16 Nov 2026 00:00:00 +0900</pubDate>

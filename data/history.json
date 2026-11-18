@@ -361,5 +361,16 @@
     "source": "Nature Neuroscience",
     "kind": "査読済み",
     "url": "https://www.nature.com/articles/s41593-026-02455-1"
+  },
+  {
+    "date": "2026-11-18",
+    "title_orig": "Microglia mediate motor memory decay through activity-dependent phagocytosis of myelin sheaths",
+    "title_ja": "ミクログリアによる活動依存的な髄鞘の貪食が運動記憶の減衰を仲介する",
+    "summary_ja": "研究チームは、運動記憶が減衰するプロセスにミクログリアが記憶関連のミエリン鞘（髄鞘）を貪食することが関与していることを明らかにしました。記憶痕跡（エングラム）の活動が低下すると、「私を食べるな」シグナルとして知られるCD47の発現が低下します。これによりミクログリアを介したミエリンの除去が促進され、結果として記憶の減衰が引き起こされます。",
+    "why_ja": "記憶の忘却がシナプス結合の変化だけでなく、ミクログリアによる髄鞘の貪食と「私を食べるな」シグナルの低下によって駆動されるという新たな神経基盤を示した点が非常に興味深いです。",
+    "field": "脳神経科学",
+    "source": "Nature Neuroscience",
+    "kind": "査読済み",
+    "url": "https://www.nature.com/articles/s41593-026-02505-8"
   }
 ]
