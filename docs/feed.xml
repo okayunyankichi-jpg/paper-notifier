@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>今日の1本 - 科学論文ニュース</title>
 <link>https://okayunyankichi-jpg.github.io/paper-notifier</link><description>AI・生命科学・脳神経科学・生物学</description>
+<item><title>SNS動画が引き起こす怒りの脳内シグネチャ：道徳的義憤の神経機構</title><link>https://www.biorxiv.org/content/10.64898/2026.11.18.767526v1?rss=1</link>
+<guid isPermaLink="false">https://www.biorxiv.org/content/10.64898/2026.11.18.767526v1?rss=1</guid>
+<pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
+<description>なお、本研究は未査読のプレプリントです。研究チームは、道徳的違反を描いたSNSの短尺動画を視聴している被験者の自然主義的fMRIデータと予測モデリングを組み合わせ、主観的な道徳的怒りを捉える神経機能シグネチャ「MONS」を構築しました。MONSは複数の被験者グループにおいて、実際に体験された怒りの強さや処罰傾向を予測できることが示されました。さらに、メンタライジングや脅威検出、行動開始に関わる脳領域（楔前部、後帯状皮質、視床下部など）が正の予測因子となる一方、価値評価や行動の柔軟性に関わる領域は負の予測因子となることが明らかになりました。 / SNS上で日常的に拡散される「炎上」や義憤が脳内でどのように表現され、処罰欲求へとつながるのかを神経科学的に捉えようとする非常に今日的で興味深い研究です。</description></item>
 <item><title>言語モデルは自らの重みを書き換えられる：勾配を用いない推論による自己編集</title><link>https://arxiv.org/abs/2611.21885</link>
 <guid isPermaLink="false">https://arxiv.org/abs/2611.21885</guid>
 <pubDate>Thu, 19 Nov 2026 00:00:00 +0900</pubDate>
